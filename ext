@@ -1,0 +1,16 @@
+fn = input("Enter filename: ")
+f = fn.split(".")
+print("Extension of the file is : " + f[-1])           
+extn = f[-1]
+if (extn == "py"):
+    print("python")
+elif (extn == "txt"):
+    print("text")
+elif (extn == "pdf"):
+    print("pdf")
+elif (extn == "mp3"):
+    print("audio")
+elif (extn == "js"):
+    print("javascript")
+else:
+    print("Failed to recognise")
